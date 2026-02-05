@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// quest 07
 public class eleitoral {
     public static void main(String[] args) {
 
