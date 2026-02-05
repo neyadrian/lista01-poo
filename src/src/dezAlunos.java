@@ -1,13 +1,14 @@
 import java.util.Scanner;
 
+//quest 11
 public class dezAlunos {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
         double nota[] = new double[10];
-        double notasTotal = 0;
-        double media = 0;
+        double notasTotal = 0.0;
+        double media = 0.0;
         int acimaMedia = 0;
         int abaixoMedia = 0;
 
