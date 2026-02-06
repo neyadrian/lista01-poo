@@ -11,10 +11,10 @@ public class Tesouro {
                 {0, 0, 0}
         };
 
-        System.out.print("Digite a linha (0 a 2): ");
+        System.out.print("Digite a linha: ");
         int linha = sc.nextInt();
 
-        System.out.print("Digite a coluna (0 a 2): ");
+        System.out.print("Digite a coluna: ");
         int coluna = sc.nextInt();
 
         if (tesouro[linha][coluna] == 1) {
