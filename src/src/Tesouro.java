@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// quest 21
 public class Tesouro {
     public static void main(String[] args) {
 
