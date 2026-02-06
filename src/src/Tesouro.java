@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-// quest 21
 public class Tesouro {
     public static void main(String[] args) {
 
@@ -11,24 +10,17 @@ public class Tesouro {
                 {0, 0, 0},
                 {0, 0, 0}
         };
-        int cacador[][] = new int[1][1];
 
+        System.out.print("Digite a linha (0 a 2): ");
+        int linha = sc.nextInt();
 
-        for (int i = 0; i <= cacador.length; i++) {
-            for (int j = 0; j <= cacador.length; j++) {
-                System.out.print("Digite uma posição: ");
-                cacador[i][j] = sc.nextInt();
-            }
-        }
+        System.out.print("Digite a coluna (0 a 2): ");
+        int coluna = sc.nextInt();
 
-        for (int i = 0; i <= tesouro.length; i++) {
-            for (int j = 0; j <= tesouro.length; j++) {
-                if (cacador[i][j] == tesouro[0][2]) {
-                    System.out.println("Tesouro encontrado!");
-                } else {
-                    System.out.println("Água...");
-                }
-            }
+        if (tesouro[linha][coluna] == 1) {
+            System.out.println("Tesouro encontrado!");
+        } else {
+            System.out.println("Água...");
         }
 
         sc.close();
