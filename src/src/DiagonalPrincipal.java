@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// quest 22
 public class DiagonalPrincipal {
     public static void main(String[] args) {
 
