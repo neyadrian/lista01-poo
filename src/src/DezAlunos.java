@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 //quest 11
-public class dezAlunos {
+public class DezAlunos {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

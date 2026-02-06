@@ -2,7 +2,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 // quest 15
-public class altura {
+public class Altura {
     public static void main(String[] args) {
 
         Locale.setDefault(Locale.US);

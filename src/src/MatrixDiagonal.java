@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 // quest 13
-public class matrixDiagonal {
+public class MatrixDiagonal {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

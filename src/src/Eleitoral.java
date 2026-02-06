@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 // quest 07
-public class eleitoral {
+public class Eleitoral {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
