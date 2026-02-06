@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 //quest 18
-public class AcharNoVetor {
+public class ParesEImpares {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
